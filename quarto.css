@@ -1,0 +1,87 @@
+:root {
+    --color-dark: rgb(14, 14, 14);
+    --color-dark2: rgb(32, 32, 32);
+    --color-dark3: rgb(22, 22, 22);
+    --color-white: #fff;
+    --color-green: rgb(103, 195, 80);
+    --color-green2: rgb(51, 149, 26);
+    --color-red: rgb(184, 40, 35);
+    --color-red2: rgb(146, 22, 17);
+    }
+    
+  * {
+    margin: 7px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    }
+    
+    body {
+    font-family: "Roboto", sans-serif;
+    }
+
+    body {
+    font-family: "Lato";
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    }
+    
+    .content {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    }
+    
+    h2 {
+    text-align: center;
+    margin-bottom: 16px;
+    }
+    
+    .content input {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+    display: inline-block;
+    border-radius: 6px;
+    outline: none;
+    }
+    
+    section {
+    font-size: 26px;
+    }
+    
+    h1 {
+    font-size: 3em;
+    }
+    
+    li img {
+    width: 100%;
+    }
+    
+    li {
+    width: 100%;
+    }
+    
+    @media screen and (min-width: 1920px) {
+    li {
+        width: 100%;
+    }
+    }
+    
+    @media screen and (min-width: 450px) {
+    li {
+        width: 100%;
+    }
+    }

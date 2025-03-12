@@ -1,0 +1,23 @@
+body {
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    background: linear-gradient(120deg, #5ec6efd8, #ffffffd8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    }
+    
+    @media screen and (min-width: 1920px) {
+    li {
+        width: 100%;
+    }
+    }
+    
+    @media screen and (min-width: 450px) {
+    li {
+        width: 100%;
+    }
+    }
+    
