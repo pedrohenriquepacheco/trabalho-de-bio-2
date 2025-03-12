@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+
+  #meuVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .fullscreem #meuVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #mensagem {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 1000;
+  }
+
+  .mensagem-oculta {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    #meuVideo {
+        width: 100%;
+        height: 100%;
+    }
+
+    #mensagem {
+        width: 90%;
+        left: 5%;
+        right: auto;
+        bottom: 10px;
+        font-size: 0.9em;
+        padding: 8px 15px;
+    }
+}
+
+@media (min-width: 1920px) {
+    #mensagem {
+        font-size: 1.5em;
+        padding: 20px 40px;
+    }
+}
